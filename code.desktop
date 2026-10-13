@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Visual Studio Code
+GenericName=Text Editor
+Comment=Code Editing. Redefined.
+Exec=/usr/bin/code --no-sandbox --disable-gpu  --ozone-platform=x11 --user-data-dir=/tmp %F
+Icon=vscode
+Terminal=false
+StartupNotify=true
+StartupWMClass=Code
+Categories=TextEditor;Development;IDE;
+MimeType=text/plain;inode/directory;
+Actions=new-empty-window;
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/usr/bin/code --no-sandbox --disable-gpu  --ozone-platform=x11 --user-data-dir=/tmp --new-window %F
+Icon=vscode

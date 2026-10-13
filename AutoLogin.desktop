@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Run Auto Login
+Comment=Run the ag_autologin script
+Exec=/opt/venv/bin/python3 /config/automata/bin/ag_autologin.py --force
+Icon=preferences-system-login
+Terminal=true
+Categories=Utility;
